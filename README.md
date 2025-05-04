@@ -1,11 +1,10 @@
-# 数据转换
 目前实现了parquet,text和jsonl互转的功能
 
 ## 如何使用
 ### 1. 克隆并拉取子模块
 ```
-git clone --recurse-submodules https://github.com/yourname/data_converter.git
-cd data_converter
+git clone --recurse-submodules https://github.com/kkghrsbsb/cpp_tojsonl.git
+cd cpp_tojsonl
 ```
 
 ### 2. 初始化 vcpkg（只需第一次）
