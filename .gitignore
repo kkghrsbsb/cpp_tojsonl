@@ -1,4 +1,45 @@
-# JetBrains project files
-.idea
-# cmake build files
-cmake-build-debug
+# 忽略 CMake 构建目录
+/build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# 忽略 VS 生成的中间文件
+*.vcxproj*
+*.sln
+*.user
+*.opensdf
+*.sdf
+*.obj
+*.pdb
+*.idb
+*.log
+
+# 忽略可执行文件和中间产物
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# vcpkg 安装文件
+/thirdparty/vcpkg/buildtrees/
+/thirdparty/vcpkg/packages/
+/thirdparty/vcpkg/installed/
+/thirdparty/vcpkg/downloads/
+
+# vcpkg 自己生成的缓存和日志
+/thirdparty/vcpkg/vcpkg*.log
+
+# 可能生成的临时数据
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# 忽略工作区配置
+.idea/
+.vscode/
