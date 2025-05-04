@@ -1,0 +1,9 @@
+{
+  "name": "cppd2jsonl",
+  "version": "0.1.0",
+  "dependencies": [
+    "arrow",
+    "parquet",
+    "nlohmann-json"
+  ]
+}
