@@ -1,2 +1,4 @@
 # JetBrains project files
 .idea
+# cmake build files
+cmake-build-debug
