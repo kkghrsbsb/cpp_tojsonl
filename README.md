@@ -20,7 +20,7 @@ mkdir build
 cd build
 ```
 
-### 4. 配置 CMake（使用 vcpkg toolchain 并构建 Release）
+### 4. 使用vcpkg toolchain并构建Release（确保cmake已安装）
 ```
 cmake .. -DCMAKE_TOOLCHAIN_FILE=../thirdparty/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release
 ```
