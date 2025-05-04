@@ -1,4 +1,4 @@
-目前实现了parquet,text和jsonl互转的功能
+目前实现了parquet,text转jsonl的功能（遍历文件目录，并生成对应的jsonl） ，把数据放在input文件夹内，转成的jsonl会生成在output文件夹
 
 ## 如何使用
 ### 1. 克隆并拉取子模块

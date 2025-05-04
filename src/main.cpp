@@ -27,7 +27,7 @@ fs::path get_output_path(const fs::path& input_dir, const fs::path& output_dir, 
 }
 
 int main() {
-    const std::string input_dir = "input-dataset";
+    const std::string input_dir = "input";
     const std::string output_dir = "output";
 
     if (!fs::exists(output_dir)) {
